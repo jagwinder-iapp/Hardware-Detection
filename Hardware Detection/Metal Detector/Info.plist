@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to provide you with connected WiFi device information.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to provide you with connected WiFi device information.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to provide you with connected WiFi device information.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>RedHatDisplay-Italic.ttf</string>
+		<string>RedHatDisplay-Regular.ttf</string>
+		<string>RedHatDisplay-SemiBoldItalic.ttf</string>
+		<string>RedHatDisplay-BoldItalic.ttf</string>
+		<string>RedHatDisplay-Bold.ttf</string>
+		<string>RedHatDisplay-SemiBold.ttf</string>
+		<string>RedHatDisplay-Medium.ttf</string>
+		<string>RobotoMono-Medium.ttf </string>
+		<string>RobotoMono-SemiBold.ttf</string>
+		<string>RobotoMono-Regular.ttf</string>
+		<string>RobotoMono-ExtraLight.ttf</string>
+		<string>RobotoMono-Light.ttf</string>
+		<string>RobotoMono-Bold.ttf</string>
+		<string>RobotoMono-Thin.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>OnBoarding</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

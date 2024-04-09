@@ -1,0 +1,1840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DA4DE2B55E1CC93217DF56F /* Pods_Metal_Detector_Metal_DetectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4E503B9356222DFADAC60D /* Pods_Metal_Detector_Metal_DetectorUITests.framework */; };
+		4C56EB342B8C787100941F5C /* MetalDetector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C56EB332B8C787100941F5C /* MetalDetector.storyboard */; };
+		4C56EB382B8C804C00941F5C /* MetalDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C56EB372B8C804C00941F5C /* MetalDetectorViewController.swift */; };
+		B30422A02B95DB1E0043772F /* OnboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304229F2B95DB1E0043772F /* OnboardCollectionViewCell.swift */; };
+		B30422A32B95E5A90043772F /* OnboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30422A22B95E5A90043772F /* OnboardModel.swift */; };
+		B307CC6A2B8E1076008AF200 /* RobotoMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC5C2B8E1076008AF200 /* RobotoMono-Medium.ttf */; };
+		B307CC6B2B8E1076008AF200 /* RobotoMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC5D2B8E1076008AF200 /* RobotoMono-SemiBold.ttf */; };
+		B307CC6D2B8E1076008AF200 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC5F2B8E1076008AF200 /* RobotoMono-Regular.ttf */; };
+		B307CC702B8E1076008AF200 /* RobotoMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC622B8E1076008AF200 /* RobotoMono-ExtraLight.ttf */; };
+		B307CC732B8E1076008AF200 /* RobotoMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC652B8E1076008AF200 /* RobotoMono-Light.ttf */; };
+		B307CC752B8E1076008AF200 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC672B8E1076008AF200 /* RobotoMono-Bold.ttf */; };
+		B307CC772B8E1076008AF200 /* RobotoMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC692B8E1076008AF200 /* RobotoMono-Thin.ttf */; };
+		B308E08B2B8DEFF5008BD959 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308E0892B8DEFF5008BD959 /* HomeTableViewCell.swift */; };
+		B308E08C2B8DEFF5008BD959 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B308E08A2B8DEFF5008BD959 /* HomeTableViewCell.xib */; };
+		B308E08E2B8DF014008BD959 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308E08D2B8DF014008BD959 /* UIViewExtension.swift */; };
+		B308E09B2B8E06E1008BD959 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B308E09A2B8E06E1008BD959 /* Camera.storyboard */; };
+		B308E09D2B8E06F9008BD959 /* CameraDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308E09C2B8E06F9008BD959 /* CameraDetectorViewController.swift */; };
+		B30F0CFC2B8E1ABC00E055B6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F0CFB2B8E1ABC00E055B6 /* SettingViewController.swift */; };
+		B3119B4F2B975BCA00012621 /* UIViewIBinspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3119B4E2B975BCA00012621 /* UIViewIBinspectable.swift */; };
+		B333B3C42B90896000640A16 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3B32B90896000640A16 /* Date.swift */; };
+		B333B3C52B90896000640A16 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3B42B90896000640A16 /* Array.swift */; };
+		B333B3C62B90896000640A16 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3B52B90896000640A16 /* NSAttributedString.swift */; };
+		B333B3C72B90896000640A16 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3B62B90896000640A16 /* Reachability.swift */; };
+		B333B3C82B90896000640A16 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3B72B90896000640A16 /* URL.swift */; };
+		B333B3C92B90896000640A16 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3B82B90896000640A16 /* String.swift */; };
+		B333B3CA2B90896000640A16 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3B92B90896000640A16 /* Double.swift */; };
+		B333B3CB2B90896000640A16 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3BB2B90896000640A16 /* UIView.swift */; };
+		B333B3CC2B90896000640A16 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3BC2B90896000640A16 /* UIColor.swift */; };
+		B333B3CD2B90896000640A16 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3BD2B90896000640A16 /* UIImage.swift */; };
+		B333B3CF2B90896000640A16 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3BF2B90896000640A16 /* UILabel.swift */; };
+		B333B3D22B90896000640A16 /* UIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3C22B90896000640A16 /* UIText.swift */; };
+		B333B3D82B908D1900640A16 /* MegnaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B3D72B908D1900640A16 /* MegnaticViewController.swift */; };
+		B333B3DA2B908D8100640A16 /* Magnetic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B333B3D92B908D8100640A16 /* Magnetic.storyboard */; };
+		B3345F3F2B887B8000095AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3345F3E2B887B8000095AB9 /* AppDelegate.swift */; };
+		B3345F412B887B8000095AB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3345F402B887B8000095AB9 /* SceneDelegate.swift */; };
+		B3345F462B887B8000095AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3345F442B887B8000095AB9 /* Main.storyboard */; };
+		B3345F482B887B8100095AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3345F472B887B8100095AB9 /* Assets.xcassets */; };
+		B3345F4B2B887B8100095AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3345F492B887B8100095AB9 /* LaunchScreen.storyboard */; };
+		B3345F562B887B8100095AB9 /* Metal_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3345F552B887B8100095AB9 /* Metal_DetectorTests.swift */; };
+		B3345F602B887B8100095AB9 /* Metal_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3345F5F2B887B8100095AB9 /* Metal_DetectorUITests.swift */; };
+		B3345F622B887B8100095AB9 /* Metal_DetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3345F612B887B8100095AB9 /* Metal_DetectorUITestsLaunchTests.swift */; };
+		B3345F9C2B887E0D00095AB9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3345F9B2B887E0D00095AB9 /* Constant.swift */; };
+		B3345FA52B887F1400095AB9 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3345FA42B887F1400095AB9 /* OnBoarding.storyboard */; };
+		B3345FAD2B88805A00095AB9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3345FAC2B88805A00095AB9 /* Home.storyboard */; };
+		B3345FB12B88809300095AB9 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3345FB02B88809300095AB9 /* Setting.storyboard */; };
+		B33883B42B9AE91300919761 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33883B32B9AE91300919761 /* CameraViewController.swift */; };
+		B33883B62B9B362500919761 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33883B52B9B362500919761 /* GradientLabel.swift */; };
+		B33E72BE2BBEAD12002C1088 /* DrawingBoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E72BD2BBEAD12002C1088 /* DrawingBoundingBoxView.swift */; };
+		B33E72C32BBEAD32002C1088 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E72C02BBEAD32002C1088 /* UIImage+CVPixelBuffer.swift */; };
+		B33E72C42BBEAD32002C1088 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E72C12BBEAD32002C1088 /* VideoCapture.swift */; };
+		B33E72C52BBEAD32002C1088 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E72C22BBEAD32002C1088 /* Measure.swift */; };
+		B34587F92B8E24DE00268C70 /* RedHatDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC562B8E0E58008AF200 /* RedHatDisplay-Bold.ttf */; };
+		B34587FA2B8E24E000268C70 /* RedHatDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC572B8E0E58008AF200 /* RedHatDisplay-ExtraBold.ttf */; };
+		B34587FB2B8E24E400268C70 /* RedHatDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC552B8E0E58008AF200 /* RedHatDisplay-Regular.ttf */; };
+		B34587FC2B8E24E400268C70 /* RedHatDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC592B8E0E58008AF200 /* RedHatDisplay-SemiBold.ttf */; };
+		B34587FD2B8E24E400268C70 /* RedHatDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B307CC582B8E0E58008AF200 /* RedHatDisplay-Medium.ttf */; };
+		B34C0C792B99C4F800D93E92 /* InfraRedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C0C782B99C4F800D93E92 /* InfraRedListViewController.swift */; };
+		B34C0C7C2B99E62700D93E92 /* OutdoorsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C0C7A2B99E62700D93E92 /* OutdoorsListTableViewCell.swift */; };
+		B34C0C7D2B99E62700D93E92 /* OutdoorsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34C0C7B2B99E62700D93E92 /* OutdoorsListTableViewCell.xib */; };
+		B3510E1B2B904DD70043EFE3 /* MailSecurity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3510E1A2B904DD70043EFE3 /* MailSecurity.storyboard */; };
+		B3510E1D2B904E170043EFE3 /* MailSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3510E1C2B904E170043EFE3 /* MailSecurityViewController.swift */; };
+		B3510E1F2B90535F0043EFE3 /* RedHatDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3510E1E2B90535F0043EFE3 /* RedHatDisplay-Italic.ttf */; };
+		B3510E222B906D190043EFE3 /* CircularLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3510E212B906D190043EFE3 /* CircularLoaderView.swift */; };
+		B3510E252B90AFB80043EFE3 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3510E242B90AFB80043EFE3 /* InformationModel.swift */; };
+		B3638D212BC54BE100507BF1 /* WifiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3638D202BC54BE100507BF1 /* WifiViewModel.swift */; };
+		B36759C52B92089C0050EEF5 /* EmailSheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36759C32B92089C0050EEF5 /* EmailSheetTableViewCell.swift */; };
+		B36759C62B92089C0050EEF5 /* EmailSheetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36759C42B92089C0050EEF5 /* EmailSheetTableViewCell.xib */; };
+		B36D58D72B8F701100F0A1A5 /* CustomGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36D58D62B8F701100F0A1A5 /* CustomGaugeView.swift */; };
+		B36D58D92B8F703800F0A1A5 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36D58D82B8F703800F0A1A5 /* FontManager.swift */; };
+		B36E2B002B8F044B007FA3BD /* WifiListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E2AFE2B8F044B007FA3BD /* WifiListTableViewCell.swift */; };
+		B36E2B012B8F044B007FA3BD /* WifiListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36E2AFF2B8F044B007FA3BD /* WifiListTableViewCell.xib */; };
+		B36E2B042B8F0919007FA3BD /* BottomSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36E2B032B8F0919007FA3BD /* BottomSheetView.xib */; };
+		B36E2B062B8F092D007FA3BD /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E2B052B8F092D007FA3BD /* BottomSheetView.swift */; };
+		B36E2B0F2B8F6936007FA3BD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E2B0E2B8F6936007FA3BD /* InfoViewController.swift */; };
+		B36E2B112B8F69A0007FA3BD /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E2B102B8F69A0007FA3BD /* Info.swift */; };
+		B36E2B132B8F69AC007FA3BD /* Info.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36E2B122B8F69AC007FA3BD /* Info.xib */; };
+		B3755B012BAAAE0200ED7E2F /* MailSecurityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3755B002BAAAE0200ED7E2F /* MailSecurityModel.swift */; };
+		B3755B042BAAB0E900ED7E2F /* BaseApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3755B032BAAB0E900ED7E2F /* BaseApiManager.swift */; };
+		B3755B062BAAB0F800ED7E2F /* APIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3755B052BAAB0F800ED7E2F /* APIStore.swift */; };
+		B3755B082BAAB7BC00ED7E2F /* MailSecurityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3755B072BAAB7BC00ED7E2F /* MailSecurityViewModel.swift */; };
+		B378333B2B9721C900805A6A /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378333A2B9721C900805A6A /* PurchaseViewController.swift */; };
+		B378333D2B9721E100805A6A /* Purchase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B378333C2B9721E100805A6A /* Purchase.storyboard */; };
+		B389C7912B95F50F00A76E2D /* InstructionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B389C78F2B95F50F00A76E2D /* InstructionListTableViewCell.swift */; };
+		B389C7922B95F50F00A76E2D /* InstructionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B389C7902B95F50F00A76E2D /* InstructionListTableViewCell.xib */; };
+		B3A61A532BA2C0F8009F930B /* PopRock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3A61A522BA2C0F8009F930B /* PopRock.mp3 */; };
+		B3ACDFE52B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ACDFE32B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.swift */; };
+		B3ACDFE62B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ACDFE42B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.xib */; };
+		B3ACDFE82B95A58F007B2ED2 /* AllDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ACDFE72B95A58F007B2ED2 /* AllDetailViewController.swift */; };
+		B3ACDFEB2B95D8C2007B2ED2 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ACDFE92B95D8C2007B2ED2 /* SettingsTableViewCell.swift */; };
+		B3ACDFEC2B95D8C2007B2ED2 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ACDFEA2B95D8C2007B2ED2 /* SettingsTableViewCell.xib */; };
+		B3ACDFEE2B95EA3F007B2ED2 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ACDFED2B95EA3F007B2ED2 /* InstructionViewController.swift */; };
+		B3BCE0F32B88867E008B3793 /* ColorsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BCE0F22B88867E008B3793 /* ColorsConstant.swift */; };
+		B3BCE0F72B888817008B3793 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BCE0F62B888817008B3793 /* WelcomeViewController.swift */; };
+		B3C7451F2BA334900023726E /* beep.aif in Resources */ = {isa = PBXBuildFile; fileRef = B3C7451E2BA334900023726E /* beep.aif */; };
+		B3CBFF5E2BA44F4400899045 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CBFF5D2BA44F4400899045 /* UIDevice.swift */; };
+		B3CC086A2BAD9B6700EA61F9 /* beep_beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3CC08692BAD9B6700EA61F9 /* beep_beep.wav */; };
+		B3E46A132B919DBD0031F9D7 /* RedHatDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E46A122B919DB70031F9D7 /* RedHatDisplay-BoldItalic.ttf */; };
+		B3E46A152B919E920031F9D7 /* RedHatDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E46A142B919E920031F9D7 /* RedHatDisplay-SemiBoldItalic.ttf */; };
+		B3E46A182B91A3160031F9D7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E46A172B91A3160031F9D7 /* Helper.swift */; };
+		B3E46A1D2B92051B0031F9D7 /* EmailBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E46A1C2B92051B0031F9D7 /* EmailBottomSheet.swift */; };
+		B3E46A1F2B9205250031F9D7 /* EmailBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3E46A1E2B9205250031F9D7 /* EmailBottomSheet.xib */; };
+		B3F3AC9C2B88A83400B47F23 /* AppCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3AC9B2B88A83400B47F23 /* AppCordinator.swift */; };
+		B3F3AC9E2B88AB4300B47F23 /* CoordinatorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3AC9D2B88AB4300B47F23 /* CoordinatorEvent.swift */; };
+		B3F3ACA02B88B54000B47F23 /* CordinatorControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3AC9F2B88B54000B47F23 /* CordinatorControllers.swift */; };
+		B3F3ACA62B88B73900B47F23 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3ACA52B88B73900B47F23 /* BaseViewController.swift */; };
+		B3F3ACA92B88B75900B47F23 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3ACA82B88B75900B47F23 /* Enumerations.swift */; };
+		B3F3ACAC2B88B83E00B47F23 /* AppStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3ACAB2B88B83E00B47F23 /* AppStoryBoard.swift */; };
+		B3F3ACAE2B88BAA100B47F23 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3ACAD2B88BAA100B47F23 /* HomeViewController.swift */; };
+		B3F3ACB12B88BEA400B47F23 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3ACB02B88BEA400B47F23 /* UserDefaults.swift */; };
+		B3FB64FB2B9F0F8500D6673E /* MetalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB64FA2B9F0F8500D6673E /* MetalViewModel.swift */; };
+		CFCD3C8BE301E01346D03CF7 /* Pods_Metal_Detector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F23E1C1EE54B602F63BFBE /* Pods_Metal_Detector.framework */; };
+		EC5EAE72B6C7B640F6E351D5 /* Pods_Metal_DetectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FDC67A2AC9F453B12B483A /* Pods_Metal_DetectorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3345F522B887B8100095AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3345F332B887B8000095AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3345F3A2B887B8000095AB9;
+			remoteInfo = "Metal Detector";
+		};
+		B3345F5C2B887B8100095AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3345F332B887B8000095AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3345F3A2B887B8000095AB9;
+			remoteInfo = "Metal Detector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D628DF84349632AB36D767 /* Pods-Metal DetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal DetectorTests.release.xcconfig"; path = "Target Support Files/Pods-Metal DetectorTests/Pods-Metal DetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C56EB332B8C787100941F5C /* MetalDetector.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MetalDetector.storyboard; sourceTree = "<group>"; };
+		4C56EB372B8C804C00941F5C /* MetalDetectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalDetectorViewController.swift; sourceTree = "<group>"; };
+		55FDC67A2AC9F453B12B483A /* Pods_Metal_DetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metal_DetectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E878C95879A5931CFA92B49 /* Pods-Metal DetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal DetectorTests.debug.xcconfig"; path = "Target Support Files/Pods-Metal DetectorTests/Pods-Metal DetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		826195D6BE8DDEF7A6F328C8 /* Pods-Metal Detector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal Detector.release.xcconfig"; path = "Target Support Files/Pods-Metal Detector/Pods-Metal Detector.release.xcconfig"; sourceTree = "<group>"; };
+		A56259A11407824A3848FE09 /* Pods-Metal Detector-Metal DetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal Detector-Metal DetectorUITests.release.xcconfig"; path = "Target Support Files/Pods-Metal Detector-Metal DetectorUITests/Pods-Metal Detector-Metal DetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8F23E1C1EE54B602F63BFBE /* Pods_Metal_Detector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metal_Detector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B304229F2B95DB1E0043772F /* OnboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		B30422A22B95E5A90043772F /* OnboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardModel.swift; sourceTree = "<group>"; };
+		B307CC552B8E0E58008AF200 /* RedHatDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		B307CC562B8E0E58008AF200 /* RedHatDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		B307CC572B8E0E58008AF200 /* RedHatDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B307CC582B8E0E58008AF200 /* RedHatDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		B307CC592B8E0E58008AF200 /* RedHatDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		B307CC5C2B8E1076008AF200 /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Medium.ttf"; sourceTree = "<group>"; };
+		B307CC5D2B8E1076008AF200 /* RobotoMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		B307CC5F2B8E1076008AF200 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		B307CC622B8E1076008AF200 /* RobotoMono-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B307CC652B8E1076008AF200 /* RobotoMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Light.ttf"; sourceTree = "<group>"; };
+		B307CC672B8E1076008AF200 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		B307CC692B8E1076008AF200 /* RobotoMono-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Thin.ttf"; sourceTree = "<group>"; };
+		B308E0892B8DEFF5008BD959 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B308E08A2B8DEFF5008BD959 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		B308E08D2B8DF014008BD959 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = "Metal Detector/Utilities/Extensions/UIViewExtension/UIViewExtension.swift"; sourceTree = SOURCE_ROOT; };
+		B308E09A2B8E06E1008BD959 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		B308E09C2B8E06F9008BD959 /* CameraDetectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDetectorViewController.swift; sourceTree = "<group>"; };
+		B30F0CFB2B8E1ABC00E055B6 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B3119B4E2B975BCA00012621 /* UIViewIBinspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewIBinspectable.swift; sourceTree = "<group>"; };
+		B333B3B32B90896000640A16 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B333B3B42B90896000640A16 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		B333B3B52B90896000640A16 /* NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		B333B3B62B90896000640A16 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B333B3B72B90896000640A16 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		B333B3B82B90896000640A16 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B333B3B92B90896000640A16 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		B333B3BB2B90896000640A16 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B333B3BC2B90896000640A16 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B333B3BD2B90896000640A16 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		B333B3BF2B90896000640A16 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		B333B3C22B90896000640A16 /* UIText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIText.swift; sourceTree = "<group>"; };
+		B333B3D72B908D1900640A16 /* MegnaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegnaticViewController.swift; sourceTree = "<group>"; };
+		B333B3D92B908D8100640A16 /* Magnetic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Magnetic.storyboard; sourceTree = "<group>"; };
+		B3345F3B2B887B8000095AB9 /* Metal Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metal Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3345F3E2B887B8000095AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3345F402B887B8000095AB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3345F452B887B8000095AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3345F472B887B8100095AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3345F4A2B887B8100095AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3345F4C2B887B8100095AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3345F512B887B8100095AB9 /* Metal DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3345F552B887B8100095AB9 /* Metal_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_DetectorTests.swift; sourceTree = "<group>"; };
+		B3345F5B2B887B8100095AB9 /* Metal DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3345F5F2B887B8100095AB9 /* Metal_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_DetectorUITests.swift; sourceTree = "<group>"; };
+		B3345F612B887B8100095AB9 /* Metal_DetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_DetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3345F9B2B887E0D00095AB9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B3345FA42B887F1400095AB9 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		B3345FAC2B88805A00095AB9 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B3345FB02B88809300095AB9 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		B33883B32B9AE91300919761 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B33883B52B9B362500919761 /* GradientLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
+		B33E72BD2BBEAD12002C1088 /* DrawingBoundingBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingBoundingBoxView.swift; sourceTree = "<group>"; };
+		B33E72C02BBEAD32002C1088 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		B33E72C12BBEAD32002C1088 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		B33E72C22BBEAD32002C1088 /* Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
+		B34C0C782B99C4F800D93E92 /* InfraRedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfraRedListViewController.swift; sourceTree = "<group>"; };
+		B34C0C7A2B99E62700D93E92 /* OutdoorsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsListTableViewCell.swift; sourceTree = "<group>"; };
+		B34C0C7B2B99E62700D93E92 /* OutdoorsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutdoorsListTableViewCell.xib; sourceTree = "<group>"; };
+		B3510E1A2B904DD70043EFE3 /* MailSecurity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MailSecurity.storyboard; sourceTree = "<group>"; };
+		B3510E1C2B904E170043EFE3 /* MailSecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailSecurityViewController.swift; sourceTree = "<group>"; };
+		B3510E1E2B90535F0043EFE3 /* RedHatDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		B3510E212B906D190043EFE3 /* CircularLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoaderView.swift; sourceTree = "<group>"; };
+		B3510E242B90AFB80043EFE3 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
+		B357DBD02BB2D8A500695983 /* Metal Detector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Metal Detector.entitlements"; sourceTree = "<group>"; };
+		B3638D202BC54BE100507BF1 /* WifiViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiViewModel.swift; sourceTree = "<group>"; };
+		B36759C32B92089C0050EEF5 /* EmailSheetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSheetTableViewCell.swift; sourceTree = "<group>"; };
+		B36759C42B92089C0050EEF5 /* EmailSheetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailSheetTableViewCell.xib; sourceTree = "<group>"; };
+		B36D58D62B8F701100F0A1A5 /* CustomGaugeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGaugeView.swift; sourceTree = "<group>"; };
+		B36D58D82B8F703800F0A1A5 /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		B36E2AFE2B8F044B007FA3BD /* WifiListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListTableViewCell.swift; sourceTree = "<group>"; };
+		B36E2AFF2B8F044B007FA3BD /* WifiListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WifiListTableViewCell.xib; sourceTree = "<group>"; };
+		B36E2B032B8F0919007FA3BD /* BottomSheetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetView.xib; sourceTree = "<group>"; };
+		B36E2B052B8F092D007FA3BD /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		B36E2B0E2B8F6936007FA3BD /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		B36E2B102B8F69A0007FA3BD /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		B36E2B122B8F69AC007FA3BD /* Info.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Info.xib; sourceTree = "<group>"; };
+		B3755B002BAAAE0200ED7E2F /* MailSecurityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailSecurityModel.swift; sourceTree = "<group>"; };
+		B3755B032BAAB0E900ED7E2F /* BaseApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiManager.swift; sourceTree = "<group>"; };
+		B3755B052BAAB0F800ED7E2F /* APIStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStore.swift; sourceTree = "<group>"; };
+		B3755B072BAAB7BC00ED7E2F /* MailSecurityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailSecurityViewModel.swift; sourceTree = "<group>"; };
+		B378333A2B9721C900805A6A /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		B378333C2B9721E100805A6A /* Purchase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Purchase.storyboard; sourceTree = "<group>"; };
+		B389C78F2B95F50F00A76E2D /* InstructionListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionListTableViewCell.swift; sourceTree = "<group>"; };
+		B389C7902B95F50F00A76E2D /* InstructionListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstructionListTableViewCell.xib; sourceTree = "<group>"; };
+		B3A61A522BA2C0F8009F930B /* PopRock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PopRock.mp3; sourceTree = "<group>"; };
+		B3ACDFE32B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDetailsDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		B3ACDFE42B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllDetailsDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		B3ACDFE72B95A58F007B2ED2 /* AllDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDetailViewController.swift; sourceTree = "<group>"; };
+		B3ACDFE92B95D8C2007B2ED2 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		B3ACDFEA2B95D8C2007B2ED2 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		B3ACDFED2B95EA3F007B2ED2 /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		B3BCE0F22B88867E008B3793 /* ColorsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsConstant.swift; sourceTree = "<group>"; };
+		B3BCE0F62B888817008B3793 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B3C7451E2BA334900023726E /* beep.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = beep.aif; sourceTree = "<group>"; };
+		B3CBFF5D2BA44F4400899045 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		B3CC08692BAD9B6700EA61F9 /* beep_beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep_beep.wav; sourceTree = "<group>"; };
+		B3E46A122B919DB70031F9D7 /* RedHatDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B3E46A142B919E920031F9D7 /* RedHatDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B3E46A172B91A3160031F9D7 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B3E46A1C2B92051B0031F9D7 /* EmailBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailBottomSheet.swift; sourceTree = "<group>"; };
+		B3E46A1E2B9205250031F9D7 /* EmailBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailBottomSheet.xib; sourceTree = "<group>"; };
+		B3F3AC9B2B88A83400B47F23 /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
+		B3F3AC9D2B88AB4300B47F23 /* CoordinatorEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorEvent.swift; sourceTree = "<group>"; };
+		B3F3AC9F2B88B54000B47F23 /* CordinatorControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordinatorControllers.swift; sourceTree = "<group>"; };
+		B3F3ACA52B88B73900B47F23 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B3F3ACA82B88B75900B47F23 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		B3F3ACAB2B88B83E00B47F23 /* AppStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryBoard.swift; sourceTree = "<group>"; };
+		B3F3ACAD2B88BAA100B47F23 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B3F3ACB02B88BEA400B47F23 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		B3FB64FA2B9F0F8500D6673E /* MetalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewModel.swift; sourceTree = "<group>"; };
+		CAEDE2CA2F4A307DBCC30125 /* Pods-Metal Detector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal Detector.debug.xcconfig"; path = "Target Support Files/Pods-Metal Detector/Pods-Metal Detector.debug.xcconfig"; sourceTree = "<group>"; };
+		E15DE43A95730A0F20FB47D9 /* Pods-Metal Detector-Metal DetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal Detector-Metal DetectorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Metal Detector-Metal DetectorUITests/Pods-Metal Detector-Metal DetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF4E503B9356222DFADAC60D /* Pods_Metal_Detector_Metal_DetectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metal_Detector_Metal_DetectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3345F382B887B8000095AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCD3C8BE301E01346D03CF7 /* Pods_Metal_Detector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3345F4E2B887B8100095AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5EAE72B6C7B640F6E351D5 /* Pods_Metal_DetectorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3345F582B887B8100095AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA4DE2B55E1CC93217DF56F /* Pods_Metal_Detector_Metal_DetectorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C56EB352B8C801F00941F5C /* MetalDetectorModule */ = {
+			isa = PBXGroup;
+			children = (
+				B3FB64F92B9F0F6600D6673E /* MetalViewModel */,
+				4C56EB362B8C802700941F5C /* Controller */,
+			);
+			path = MetalDetectorModule;
+			sourceTree = "<group>";
+		};
+		4C56EB362B8C802700941F5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C56EB372B8C804C00941F5C /* MetalDetectorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77ECC5258BE35BB57F359A56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDE2CA2F4A307DBCC30125 /* Pods-Metal Detector.debug.xcconfig */,
+				826195D6BE8DDEF7A6F328C8 /* Pods-Metal Detector.release.xcconfig */,
+				E15DE43A95730A0F20FB47D9 /* Pods-Metal Detector-Metal DetectorUITests.debug.xcconfig */,
+				A56259A11407824A3848FE09 /* Pods-Metal Detector-Metal DetectorUITests.release.xcconfig */,
+				7E878C95879A5931CFA92B49 /* Pods-Metal DetectorTests.debug.xcconfig */,
+				06D628DF84349632AB36D767 /* Pods-Metal DetectorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B304229E2B95DAE70043772F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B304229F2B95DB1E0043772F /* OnboardCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B30422A12B95E59A0043772F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B30422A22B95E5A90043772F /* OnboardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B307CC5A2B8E0E73008AF200 /* RedHat */ = {
+			isa = PBXGroup;
+			children = (
+				B3E46A142B919E920031F9D7 /* RedHatDisplay-SemiBoldItalic.ttf */,
+				B3E46A122B919DB70031F9D7 /* RedHatDisplay-BoldItalic.ttf */,
+				B3510E1E2B90535F0043EFE3 /* RedHatDisplay-Italic.ttf */,
+				B307CC562B8E0E58008AF200 /* RedHatDisplay-Bold.ttf */,
+				B307CC572B8E0E58008AF200 /* RedHatDisplay-ExtraBold.ttf */,
+				B307CC582B8E0E58008AF200 /* RedHatDisplay-Medium.ttf */,
+				B307CC552B8E0E58008AF200 /* RedHatDisplay-Regular.ttf */,
+				B307CC592B8E0E58008AF200 /* RedHatDisplay-SemiBold.ttf */,
+			);
+			path = RedHat;
+			sourceTree = "<group>";
+		};
+		B307CC5B2B8E1076008AF200 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				B307CC5C2B8E1076008AF200 /* RobotoMono-Medium.ttf */,
+				B307CC5D2B8E1076008AF200 /* RobotoMono-SemiBold.ttf */,
+				B307CC5F2B8E1076008AF200 /* RobotoMono-Regular.ttf */,
+				B307CC622B8E1076008AF200 /* RobotoMono-ExtraLight.ttf */,
+				B307CC652B8E1076008AF200 /* RobotoMono-Light.ttf */,
+				B307CC672B8E1076008AF200 /* RobotoMono-Bold.ttf */,
+				B307CC692B8E1076008AF200 /* RobotoMono-Thin.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		B308E08F2B8DF0E3008BD959 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F3E2B887B8000095AB9 /* AppDelegate.swift */,
+				B3345F402B887B8000095AB9 /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B333B3B22B90896000640A16 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B333B3B32B90896000640A16 /* Date.swift */,
+				B333B3B42B90896000640A16 /* Array.swift */,
+				B333B3B52B90896000640A16 /* NSAttributedString.swift */,
+				B333B3B62B90896000640A16 /* Reachability.swift */,
+				B333B3B72B90896000640A16 /* URL.swift */,
+				B333B3B82B90896000640A16 /* String.swift */,
+				B333B3B92B90896000640A16 /* Double.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B333B3BA2B90896000640A16 /* UIKIT */ = {
+			isa = PBXGroup;
+			children = (
+				B3119B4E2B975BCA00012621 /* UIViewIBinspectable.swift */,
+				B333B3BB2B90896000640A16 /* UIView.swift */,
+				B333B3BC2B90896000640A16 /* UIColor.swift */,
+				B333B3BD2B90896000640A16 /* UIImage.swift */,
+				B333B3BF2B90896000640A16 /* UILabel.swift */,
+				B333B3C22B90896000640A16 /* UIText.swift */,
+				B33883B52B9B362500919761 /* GradientLabel.swift */,
+				B3CBFF5D2BA44F4400899045 /* UIDevice.swift */,
+			);
+			path = UIKIT;
+			sourceTree = "<group>";
+		};
+		B333B3D62B908BBB00640A16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B333B3D72B908D1900640A16 /* MegnaticViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B3345F322B887B8000095AB9 = {
+			isa = PBXGroup;
+			children = (
+				B3345F3D2B887B8000095AB9 /* Metal Detector */,
+				B3345F542B887B8100095AB9 /* Metal DetectorTests */,
+				B3345F5E2B887B8100095AB9 /* Metal DetectorUITests */,
+				B3345F3C2B887B8000095AB9 /* Products */,
+				77ECC5258BE35BB57F359A56 /* Pods */,
+				D37468CE977E77C53A70F0C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3345F3C2B887B8000095AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F3B2B887B8000095AB9 /* Metal Detector.app */,
+				B3345F512B887B8100095AB9 /* Metal DetectorTests.xctest */,
+				B3345F5B2B887B8100095AB9 /* Metal DetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3345F3D2B887B8000095AB9 /* Metal Detector */ = {
+			isa = PBXGroup;
+			children = (
+				B357DBD02BB2D8A500695983 /* Metal Detector.entitlements */,
+				B3755B022BAAB03500ED7E2F /* APIManager */,
+				B308E08F2B8DF0E3008BD959 /* Main */,
+				B3345F732B887C4000095AB9 /* Resources */,
+				B3345F752B887C6100095AB9 /* Constants */,
+				B3345F742B887C4E00095AB9 /* Utilities */,
+				B3345F8B2B887D4700095AB9 /* Modules */,
+				B3345F9D2B887E3700095AB9 /* StoryBoards */,
+				B3345F4C2B887B8100095AB9 /* Info.plist */,
+			);
+			path = "Metal Detector";
+			sourceTree = "<group>";
+		};
+		B3345F542B887B8100095AB9 /* Metal DetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F552B887B8100095AB9 /* Metal_DetectorTests.swift */,
+			);
+			path = "Metal DetectorTests";
+			sourceTree = "<group>";
+		};
+		B3345F5E2B887B8100095AB9 /* Metal DetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F5F2B887B8100095AB9 /* Metal_DetectorUITests.swift */,
+				B3345F612B887B8100095AB9 /* Metal_DetectorUITestsLaunchTests.swift */,
+			);
+			path = "Metal DetectorUITests";
+			sourceTree = "<group>";
+		};
+		B3345F6E2B887BC200095AB9 /* MailDetectorModule */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F8A2B887D3A00095AB9 /* Model */,
+				B3345F882B887D2F00095AB9 /* Views */,
+				B3345F872B887D2500095AB9 /* ViewModel */,
+				B3345F892B887D3400095AB9 /* Controller */,
+			);
+			path = MailDetectorModule;
+			sourceTree = "<group>";
+		};
+		B3345F6F2B887BD200095AB9 /* StudDetectorModule */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F862B887D2000095AB9 /* Model */,
+				B3345F842B887D1400095AB9 /* Views */,
+				B3345F832B887D0D00095AB9 /* ViewModel */,
+				B3345F852B887D1900095AB9 /* Controller */,
+			);
+			path = StudDetectorModule;
+			sourceTree = "<group>";
+		};
+		B3345F702B887C0100095AB9 /* CameraDetectorModule */ = {
+			isa = PBXGroup;
+			children = (
+				B33E72BB2BBEACDE002C1088 /* CoreML */,
+				B3345F822B887D0800095AB9 /* Model */,
+				B3345F802B887CFB00095AB9 /* Views */,
+				B357DBCD2BB2D27300695983 /* ViewModel */,
+				B3345F812B887D0100095AB9 /* Controller */,
+			);
+			path = CameraDetectorModule;
+			sourceTree = "<group>";
+		};
+		B3345F712B887C1200095AB9 /* ElectroMagneticDetectorModule */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F7E2B887CEA00095AB9 /* Model */,
+				B3345F7B2B887CD000095AB9 /* Views */,
+				B3345F7A2B887CC800095AB9 /* ViewModel */,
+				B333B3D62B908BBB00640A16 /* Controllers */,
+			);
+			path = ElectroMagneticDetectorModule;
+			sourceTree = "<group>";
+		};
+		B3345F732B887C4000095AB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC08692BAD9B6700EA61F9 /* beep_beep.wav */,
+				B3C7451E2BA334900023726E /* beep.aif */,
+				B3A61A522BA2C0F8009F930B /* PopRock.mp3 */,
+				B3345F492B887B8100095AB9 /* LaunchScreen.storyboard */,
+				B3345F472B887B8100095AB9 /* Assets.xcassets */,
+				B3F3AC992B88A4D000B47F23 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3345F742B887C4E00095AB9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B3E46A162B91A30C0031F9D7 /* Helper */,
+				B3F3ACA12B88B70400B47F23 /* Extensions */,
+				B3F3AC9A2B88A82000B47F23 /* AppCordinator */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B3345F752B887C6100095AB9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3ACA72B88B74600B47F23 /* Enums */,
+				B3BCE0F02B888652008B3793 /* ConstantStrings */,
+				B3BCE0F12B888666008B3793 /* FontsConstant */,
+				B3BCE0EF2B888649008B3793 /* Colors */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B3345F7A2B887CC800095AB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3345F7B2B887CD000095AB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F8F2B887D7900095AB9 /* CollectionViewCell */,
+				B3345F8E2B887D7300095AB9 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3345F7E2B887CEA00095AB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3345F802B887CFB00095AB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B36E2B022B8F08E2007FA3BD /* BottomSheetUIView */,
+				B3345F912B887D8B00095AB9 /* CollectionViewCell */,
+				B3345F902B887D8400095AB9 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3345F812B887D0100095AB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B308E09C2B8E06F9008BD959 /* CameraDetectorViewController.swift */,
+				B34C0C782B99C4F800D93E92 /* InfraRedListViewController.swift */,
+				B33883B32B9AE91300919761 /* CameraViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3345F822B887D0800095AB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3345F832B887D0D00095AB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3345F842B887D1400095AB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F932B887DA000095AB9 /* CollectionViewCell */,
+				B3345F922B887D9800095AB9 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3345F852B887D1900095AB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3345F862B887D2000095AB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3345F872B887D2500095AB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3755B072BAAB7BC00ED7E2F /* MailSecurityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3345F882B887D2F00095AB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3E46A1B2B9204F50031F9D7 /* BottomSheetForMailData */,
+				B3510E202B906CFD0043EFE3 /* CircularLoader */,
+				B3345F952B887DB500095AB9 /* CollectionViewCell */,
+				B3345F942B887DAD00095AB9 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3345F892B887D3400095AB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3510E1C2B904E170043EFE3 /* MailSecurityViewController.swift */,
+				B3ACDFE72B95A58F007B2ED2 /* AllDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3345F8A2B887D3A00095AB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3755B002BAAAE0200ED7E2F /* MailSecurityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3345F8B2B887D4700095AB9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F962B887DC500095AB9 /* OnBoarding */,
+				B37833382B9721A300805A6A /* PurchaseModule */,
+				B3345FA62B88800B00095AB9 /* HomeModule */,
+				4C56EB352B8C801F00941F5C /* MetalDetectorModule */,
+				B3345F712B887C1200095AB9 /* ElectroMagneticDetectorModule */,
+				B3345F702B887C0100095AB9 /* CameraDetectorModule */,
+				B3345F6F2B887BD200095AB9 /* StudDetectorModule */,
+				B3345F6E2B887BC200095AB9 /* MailDetectorModule */,
+				B3345FB22B88809E00095AB9 /* Settings */,
+				B36E2B0B2B8F68F3007FA3BD /* Information */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B3345F8E2B887D7300095AB9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B3345F8F2B887D7900095AB9 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B3345F902B887D8400095AB9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B36E2AFE2B8F044B007FA3BD /* WifiListTableViewCell.swift */,
+				B36E2AFF2B8F044B007FA3BD /* WifiListTableViewCell.xib */,
+				B34C0C7A2B99E62700D93E92 /* OutdoorsListTableViewCell.swift */,
+				B34C0C7B2B99E62700D93E92 /* OutdoorsListTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B3345F912B887D8B00095AB9 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B3345F922B887D9800095AB9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B3345F932B887DA000095AB9 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B3345F942B887DAD00095AB9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B36759C32B92089C0050EEF5 /* EmailSheetTableViewCell.swift */,
+				B36759C42B92089C0050EEF5 /* EmailSheetTableViewCell.xib */,
+				B3ACDFE32B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.swift */,
+				B3ACDFE42B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B3345F952B887DB500095AB9 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B3345F962B887DC500095AB9 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				B30422A12B95E59A0043772F /* Model */,
+				B304229E2B95DAE70043772F /* Views */,
+				B3345F982B887DDB00095AB9 /* Controller */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		B3345F982B887DDB00095AB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3BCE0F62B888817008B3793 /* WelcomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3345F9D2B887E3700095AB9 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B3345FA42B887F1400095AB9 /* OnBoarding.storyboard */,
+				B3345FAC2B88805A00095AB9 /* Home.storyboard */,
+				4C56EB332B8C787100941F5C /* MetalDetector.storyboard */,
+				B333B3D92B908D8100640A16 /* Magnetic.storyboard */,
+				B3345FB02B88809300095AB9 /* Setting.storyboard */,
+				B3345F442B887B8000095AB9 /* Main.storyboard */,
+				B308E09A2B8E06E1008BD959 /* Camera.storyboard */,
+				B3510E1A2B904DD70043EFE3 /* MailSecurity.storyboard */,
+				B378333C2B9721E100805A6A /* Purchase.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B3345FA62B88800B00095AB9 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				B3345FAA2B88803300095AB9 /* Model */,
+				B3345FA82B88802600095AB9 /* Views */,
+				B3345FA72B88801B00095AB9 /* ViewModel */,
+				B3345FA92B88802C00095AB9 /* Controller */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		B3345FA72B88801B00095AB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3345FA82B88802600095AB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3345FAE2B88806600095AB9 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3345FA92B88802C00095AB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3ACAD2B88BAA100B47F23 /* HomeViewController.swift */,
+				B3ACDFED2B95EA3F007B2ED2 /* InstructionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3345FAA2B88803300095AB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3345FAE2B88806600095AB9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B308E0892B8DEFF5008BD959 /* HomeTableViewCell.swift */,
+				B308E08A2B8DEFF5008BD959 /* HomeTableViewCell.xib */,
+				B389C78F2B95F50F00A76E2D /* InstructionListTableViewCell.swift */,
+				B389C7902B95F50F00A76E2D /* InstructionListTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B3345FB22B88809E00095AB9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B3345FB32B8880B500095AB9 /* Views */,
+				B3345FB42B8880BE00095AB9 /* Controller */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B3345FB32B8880B500095AB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3345FB52B8880C400095AB9 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3345FB42B8880BE00095AB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B30F0CFB2B8E1ABC00E055B6 /* SettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3345FB52B8880C400095AB9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B3ACDFE92B95D8C2007B2ED2 /* SettingsTableViewCell.swift */,
+				B3ACDFEA2B95D8C2007B2ED2 /* SettingsTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B33E72BB2BBEACDE002C1088 /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				B33E72C62BBEADA9002C1088 /* MlModel */,
+				B33E72BF2BBEAD32002C1088 /* MlUtillis */,
+				B33E72BC2BBEACF8002C1088 /* MLViews */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		B33E72BC2BBEACF8002C1088 /* MLViews */ = {
+			isa = PBXGroup;
+			children = (
+				B33E72BD2BBEAD12002C1088 /* DrawingBoundingBoxView.swift */,
+			);
+			path = MLViews;
+			sourceTree = "<group>";
+		};
+		B33E72BF2BBEAD32002C1088 /* MlUtillis */ = {
+			isa = PBXGroup;
+			children = (
+				B33E72C02BBEAD32002C1088 /* UIImage+CVPixelBuffer.swift */,
+				B33E72C12BBEAD32002C1088 /* VideoCapture.swift */,
+				B33E72C22BBEAD32002C1088 /* Measure.swift */,
+			);
+			path = MlUtillis;
+			sourceTree = "<group>";
+		};
+		B33E72C62BBEADA9002C1088 /* MlModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MlModel;
+			sourceTree = "<group>";
+		};
+		B3510E202B906CFD0043EFE3 /* CircularLoader */ = {
+			isa = PBXGroup;
+			children = (
+				B3510E212B906D190043EFE3 /* CircularLoaderView.swift */,
+			);
+			path = CircularLoader;
+			sourceTree = "<group>";
+		};
+		B3510E232B90AFA40043EFE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3510E242B90AFB80043EFE3 /* InformationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B357DBCD2BB2D27300695983 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3638D202BC54BE100507BF1 /* WifiViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B36D58D52B8F701100F0A1A5 /* Commonview */ = {
+			isa = PBXGroup;
+			children = (
+				B36D58D62B8F701100F0A1A5 /* CustomGaugeView.swift */,
+			);
+			path = Commonview;
+			sourceTree = "<group>";
+		};
+		B36E2B022B8F08E2007FA3BD /* BottomSheetUIView */ = {
+			isa = PBXGroup;
+			children = (
+				B36E2B032B8F0919007FA3BD /* BottomSheetView.xib */,
+				B36E2B052B8F092D007FA3BD /* BottomSheetView.swift */,
+			);
+			path = BottomSheetUIView;
+			sourceTree = "<group>";
+		};
+		B36E2B0B2B8F68F3007FA3BD /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				B3510E232B90AFA40043EFE3 /* Model */,
+				B36E2B0D2B8F691F007FA3BD /* Views */,
+				B36E2B0C2B8F690F007FA3BD /* Controller */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		B36E2B0C2B8F690F007FA3BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B36E2B0E2B8F6936007FA3BD /* InfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B36E2B0D2B8F691F007FA3BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B36E2B102B8F69A0007FA3BD /* Info.swift */,
+				B36E2B122B8F69AC007FA3BD /* Info.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3755B022BAAB03500ED7E2F /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				B3755B032BAAB0E900ED7E2F /* BaseApiManager.swift */,
+				B3755B052BAAB0F800ED7E2F /* APIStore.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		B37833382B9721A300805A6A /* PurchaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				B37833392B9721B700805A6A /* Controller */,
+			);
+			path = PurchaseModule;
+			sourceTree = "<group>";
+		};
+		B37833392B9721B700805A6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B378333A2B9721C900805A6A /* PurchaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3BCE0EF2B888649008B3793 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B3BCE0F22B88867E008B3793 /* ColorsConstant.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		B3BCE0F02B888652008B3793 /* ConstantStrings */ = {
+			isa = PBXGroup;
+			children = (
+				B3345F9B2B887E0D00095AB9 /* Constant.swift */,
+			);
+			path = ConstantStrings;
+			sourceTree = "<group>";
+		};
+		B3BCE0F12B888666008B3793 /* FontsConstant */ = {
+			isa = PBXGroup;
+			children = (
+				B36D58D82B8F703800F0A1A5 /* FontManager.swift */,
+			);
+			path = FontsConstant;
+			sourceTree = "<group>";
+		};
+		B3E46A162B91A30C0031F9D7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B3E46A172B91A3160031F9D7 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B3E46A1B2B9204F50031F9D7 /* BottomSheetForMailData */ = {
+			isa = PBXGroup;
+			children = (
+				B3E46A1C2B92051B0031F9D7 /* EmailBottomSheet.swift */,
+				B3E46A1E2B9205250031F9D7 /* EmailBottomSheet.xib */,
+			);
+			path = BottomSheetForMailData;
+			sourceTree = "<group>";
+		};
+		B3F3AC992B88A4D000B47F23 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B307CC5B2B8E1076008AF200 /* Roboto */,
+				B307CC5A2B8E0E73008AF200 /* RedHat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B3F3AC9A2B88A82000B47F23 /* AppCordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3AC9B2B88A83400B47F23 /* AppCordinator.swift */,
+				B3F3AC9D2B88AB4300B47F23 /* CoordinatorEvent.swift */,
+				B3F3AC9F2B88B54000B47F23 /* CordinatorControllers.swift */,
+			);
+			path = AppCordinator;
+			sourceTree = "<group>";
+		};
+		B3F3ACA12B88B70400B47F23 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B333B3B22B90896000640A16 /* Foundation */,
+				B333B3BA2B90896000640A16 /* UIKIT */,
+				B36D58D52B8F701100F0A1A5 /* Commonview */,
+				B3F3ACAF2B88BE9400B47F23 /* UserDefaults */,
+				B3F3ACAA2B88B82B00B47F23 /* StoryBoardExtension */,
+				B3F3ACA22B88B71200B47F23 /* UIViewController+Extensions */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B3F3ACA22B88B71200B47F23 /* UIViewController+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B308E08D2B8DF014008BD959 /* UIViewExtension.swift */,
+				B3F3ACA52B88B73900B47F23 /* BaseViewController.swift */,
+			);
+			path = "UIViewController+Extensions";
+			sourceTree = "<group>";
+		};
+		B3F3ACA72B88B74600B47F23 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3ACA82B88B75900B47F23 /* Enumerations.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B3F3ACAA2B88B82B00B47F23 /* StoryBoardExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3ACAB2B88B83E00B47F23 /* AppStoryBoard.swift */,
+			);
+			path = StoryBoardExtension;
+			sourceTree = "<group>";
+		};
+		B3F3ACAF2B88BE9400B47F23 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3ACB02B88BEA400B47F23 /* UserDefaults.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		B3FB64F92B9F0F6600D6673E /* MetalViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3FB64FA2B9F0F8500D6673E /* MetalViewModel.swift */,
+			);
+			path = MetalViewModel;
+			sourceTree = "<group>";
+		};
+		D37468CE977E77C53A70F0C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F23E1C1EE54B602F63BFBE /* Pods_Metal_Detector.framework */,
+				FF4E503B9356222DFADAC60D /* Pods_Metal_Detector_Metal_DetectorUITests.framework */,
+				55FDC67A2AC9F453B12B483A /* Pods_Metal_DetectorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3345F3A2B887B8000095AB9 /* Metal Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3345F652B887B8100095AB9 /* Build configuration list for PBXNativeTarget "Metal Detector" */;
+			buildPhases = (
+				EC2FAA23FD1333B9932D49E3 /* [CP] Check Pods Manifest.lock */,
+				B3345F372B887B8000095AB9 /* Sources */,
+				B3345F382B887B8000095AB9 /* Frameworks */,
+				B3345F392B887B8000095AB9 /* Resources */,
+				24D63BD0702939CD130E9BCB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metal Detector";
+			productName = "Metal Detector";
+			productReference = B3345F3B2B887B8000095AB9 /* Metal Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3345F502B887B8100095AB9 /* Metal DetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3345F682B887B8100095AB9 /* Build configuration list for PBXNativeTarget "Metal DetectorTests" */;
+			buildPhases = (
+				14647976324EC58B133687EA /* [CP] Check Pods Manifest.lock */,
+				B3345F4D2B887B8100095AB9 /* Sources */,
+				B3345F4E2B887B8100095AB9 /* Frameworks */,
+				B3345F4F2B887B8100095AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3345F532B887B8100095AB9 /* PBXTargetDependency */,
+			);
+			name = "Metal DetectorTests";
+			productName = "Metal DetectorTests";
+			productReference = B3345F512B887B8100095AB9 /* Metal DetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3345F5A2B887B8100095AB9 /* Metal DetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3345F6B2B887B8100095AB9 /* Build configuration list for PBXNativeTarget "Metal DetectorUITests" */;
+			buildPhases = (
+				F0A357DAC87C96B8F3708430 /* [CP] Check Pods Manifest.lock */,
+				B3345F572B887B8100095AB9 /* Sources */,
+				B3345F582B887B8100095AB9 /* Frameworks */,
+				B3345F592B887B8100095AB9 /* Resources */,
+				656CDE024893EC1B311AD836 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3345F5D2B887B8100095AB9 /* PBXTargetDependency */,
+			);
+			name = "Metal DetectorUITests";
+			productName = "Metal DetectorUITests";
+			productReference = B3345F5B2B887B8100095AB9 /* Metal DetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3345F332B887B8000095AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B3345F3A2B887B8000095AB9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B3345F502B887B8100095AB9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B3345F3A2B887B8000095AB9;
+					};
+					B3345F5A2B887B8100095AB9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B3345F3A2B887B8000095AB9;
+					};
+				};
+			};
+			buildConfigurationList = B3345F362B887B8000095AB9 /* Build configuration list for PBXProject "Metal Detector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3345F322B887B8000095AB9;
+			productRefGroup = B3345F3C2B887B8000095AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3345F3A2B887B8000095AB9 /* Metal Detector */,
+				B3345F502B887B8100095AB9 /* Metal DetectorTests */,
+				B3345F5A2B887B8100095AB9 /* Metal DetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3345F392B887B8000095AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3345F4B2B887B8100095AB9 /* LaunchScreen.storyboard in Resources */,
+				B308E09B2B8E06E1008BD959 /* Camera.storyboard in Resources */,
+				B36E2B042B8F0919007FA3BD /* BottomSheetView.xib in Resources */,
+				B36759C62B92089C0050EEF5 /* EmailSheetTableViewCell.xib in Resources */,
+				B34C0C7D2B99E62700D93E92 /* OutdoorsListTableViewCell.xib in Resources */,
+				B389C7922B95F50F00A76E2D /* InstructionListTableViewCell.xib in Resources */,
+				B3CC086A2BAD9B6700EA61F9 /* beep_beep.wav in Resources */,
+				B3C7451F2BA334900023726E /* beep.aif in Resources */,
+				B34587FD2B8E24E400268C70 /* RedHatDisplay-Medium.ttf in Resources */,
+				B3345FAD2B88805A00095AB9 /* Home.storyboard in Resources */,
+				B3ACDFEC2B95D8C2007B2ED2 /* SettingsTableViewCell.xib in Resources */,
+				B3510E1B2B904DD70043EFE3 /* MailSecurity.storyboard in Resources */,
+				B34587FA2B8E24E000268C70 /* RedHatDisplay-ExtraBold.ttf in Resources */,
+				B308E08C2B8DEFF5008BD959 /* HomeTableViewCell.xib in Resources */,
+				B333B3DA2B908D8100640A16 /* Magnetic.storyboard in Resources */,
+				B3345F482B887B8100095AB9 /* Assets.xcassets in Resources */,
+				B34587F92B8E24DE00268C70 /* RedHatDisplay-Bold.ttf in Resources */,
+				B307CC772B8E1076008AF200 /* RobotoMono-Thin.ttf in Resources */,
+				B34587FB2B8E24E400268C70 /* RedHatDisplay-Regular.ttf in Resources */,
+				B36E2B012B8F044B007FA3BD /* WifiListTableViewCell.xib in Resources */,
+				B3345F462B887B8000095AB9 /* Main.storyboard in Resources */,
+				B36E2B132B8F69AC007FA3BD /* Info.xib in Resources */,
+				B3345FA52B887F1400095AB9 /* OnBoarding.storyboard in Resources */,
+				B307CC732B8E1076008AF200 /* RobotoMono-Light.ttf in Resources */,
+				B34587FC2B8E24E400268C70 /* RedHatDisplay-SemiBold.ttf in Resources */,
+				B307CC752B8E1076008AF200 /* RobotoMono-Bold.ttf in Resources */,
+				B307CC6D2B8E1076008AF200 /* RobotoMono-Regular.ttf in Resources */,
+				4C56EB342B8C787100941F5C /* MetalDetector.storyboard in Resources */,
+				B3510E1F2B90535F0043EFE3 /* RedHatDisplay-Italic.ttf in Resources */,
+				B3A61A532BA2C0F8009F930B /* PopRock.mp3 in Resources */,
+				B378333D2B9721E100805A6A /* Purchase.storyboard in Resources */,
+				B3E46A1F2B9205250031F9D7 /* EmailBottomSheet.xib in Resources */,
+				B307CC702B8E1076008AF200 /* RobotoMono-ExtraLight.ttf in Resources */,
+				B307CC6B2B8E1076008AF200 /* RobotoMono-SemiBold.ttf in Resources */,
+				B3345FB12B88809300095AB9 /* Setting.storyboard in Resources */,
+				B3E46A132B919DBD0031F9D7 /* RedHatDisplay-BoldItalic.ttf in Resources */,
+				B3ACDFE62B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.xib in Resources */,
+				B307CC6A2B8E1076008AF200 /* RobotoMono-Medium.ttf in Resources */,
+				B3E46A152B919E920031F9D7 /* RedHatDisplay-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3345F4F2B887B8100095AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3345F592B887B8100095AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14647976324EC58B133687EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metal DetectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24D63BD0702939CD130E9BCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metal Detector/Pods-Metal Detector-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metal Detector/Pods-Metal Detector-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Metal Detector/Pods-Metal Detector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656CDE024893EC1B311AD836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metal Detector-Metal DetectorUITests/Pods-Metal Detector-Metal DetectorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metal Detector-Metal DetectorUITests/Pods-Metal Detector-Metal DetectorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Metal Detector-Metal DetectorUITests/Pods-Metal Detector-Metal DetectorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2FAA23FD1333B9932D49E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metal Detector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A357DAC87C96B8F3708430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metal Detector-Metal DetectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3345F372B887B8000095AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B389C7912B95F50F00A76E2D /* InstructionListTableViewCell.swift in Sources */,
+				B333B3CB2B90896000640A16 /* UIView.swift in Sources */,
+				B34C0C7C2B99E62700D93E92 /* OutdoorsListTableViewCell.swift in Sources */,
+				B308E09D2B8E06F9008BD959 /* CameraDetectorViewController.swift in Sources */,
+				B36E2B062B8F092D007FA3BD /* BottomSheetView.swift in Sources */,
+				B36759C52B92089C0050EEF5 /* EmailSheetTableViewCell.swift in Sources */,
+				B3345F3F2B887B8000095AB9 /* AppDelegate.swift in Sources */,
+				B34C0C792B99C4F800D93E92 /* InfraRedListViewController.swift in Sources */,
+				B333B3D82B908D1900640A16 /* MegnaticViewController.swift in Sources */,
+				B3E46A1D2B92051B0031F9D7 /* EmailBottomSheet.swift in Sources */,
+				B3ACDFEB2B95D8C2007B2ED2 /* SettingsTableViewCell.swift in Sources */,
+				B33883B42B9AE91300919761 /* CameraViewController.swift in Sources */,
+				B33883B62B9B362500919761 /* GradientLabel.swift in Sources */,
+				B333B3D22B90896000640A16 /* UIText.swift in Sources */,
+				B3345F412B887B8000095AB9 /* SceneDelegate.swift in Sources */,
+				B3345F9C2B887E0D00095AB9 /* Constant.swift in Sources */,
+				B33E72C42BBEAD32002C1088 /* VideoCapture.swift in Sources */,
+				B3BCE0F72B888817008B3793 /* WelcomeViewController.swift in Sources */,
+				B33E72C52BBEAD32002C1088 /* Measure.swift in Sources */,
+				B3510E222B906D190043EFE3 /* CircularLoaderView.swift in Sources */,
+				B3510E252B90AFB80043EFE3 /* InformationModel.swift in Sources */,
+				B333B3CC2B90896000640A16 /* UIColor.swift in Sources */,
+				B333B3C42B90896000640A16 /* Date.swift in Sources */,
+				B333B3CA2B90896000640A16 /* Double.swift in Sources */,
+				B30422A02B95DB1E0043772F /* OnboardCollectionViewCell.swift in Sources */,
+				B36E2B002B8F044B007FA3BD /* WifiListTableViewCell.swift in Sources */,
+				B378333B2B9721C900805A6A /* PurchaseViewController.swift in Sources */,
+				B3510E1D2B904E170043EFE3 /* MailSecurityViewController.swift in Sources */,
+				B30F0CFC2B8E1ABC00E055B6 /* SettingViewController.swift in Sources */,
+				B33E72C32BBEAD32002C1088 /* UIImage+CVPixelBuffer.swift in Sources */,
+				B333B3C52B90896000640A16 /* Array.swift in Sources */,
+				B3F3ACAC2B88B83E00B47F23 /* AppStoryBoard.swift in Sources */,
+				B36D58D72B8F701100F0A1A5 /* CustomGaugeView.swift in Sources */,
+				B333B3C92B90896000640A16 /* String.swift in Sources */,
+				B3755B042BAAB0E900ED7E2F /* BaseApiManager.swift in Sources */,
+				B3755B062BAAB0F800ED7E2F /* APIStore.swift in Sources */,
+				B3755B082BAAB7BC00ED7E2F /* MailSecurityViewModel.swift in Sources */,
+				B3FB64FB2B9F0F8500D6673E /* MetalViewModel.swift in Sources */,
+				B3BCE0F32B88867E008B3793 /* ColorsConstant.swift in Sources */,
+				B333B3C62B90896000640A16 /* NSAttributedString.swift in Sources */,
+				B3ACDFEE2B95EA3F007B2ED2 /* InstructionViewController.swift in Sources */,
+				B3CBFF5E2BA44F4400899045 /* UIDevice.swift in Sources */,
+				B3119B4F2B975BCA00012621 /* UIViewIBinspectable.swift in Sources */,
+				B333B3C72B90896000640A16 /* Reachability.swift in Sources */,
+				B36E2B0F2B8F6936007FA3BD /* InfoViewController.swift in Sources */,
+				B308E08E2B8DF014008BD959 /* UIViewExtension.swift in Sources */,
+				B3E46A182B91A3160031F9D7 /* Helper.swift in Sources */,
+				B333B3CF2B90896000640A16 /* UILabel.swift in Sources */,
+				B308E08B2B8DEFF5008BD959 /* HomeTableViewCell.swift in Sources */,
+				B3F3ACA62B88B73900B47F23 /* BaseViewController.swift in Sources */,
+				B333B3CD2B90896000640A16 /* UIImage.swift in Sources */,
+				B3755B012BAAAE0200ED7E2F /* MailSecurityModel.swift in Sources */,
+				B30422A32B95E5A90043772F /* OnboardModel.swift in Sources */,
+				B333B3C82B90896000640A16 /* URL.swift in Sources */,
+				B3F3AC9C2B88A83400B47F23 /* AppCordinator.swift in Sources */,
+				B3F3ACA02B88B54000B47F23 /* CordinatorControllers.swift in Sources */,
+				B3F3AC9E2B88AB4300B47F23 /* CoordinatorEvent.swift in Sources */,
+				B3F3ACAE2B88BAA100B47F23 /* HomeViewController.swift in Sources */,
+				B3ACDFE82B95A58F007B2ED2 /* AllDetailViewController.swift in Sources */,
+				B3638D212BC54BE100507BF1 /* WifiViewModel.swift in Sources */,
+				B3F3ACB12B88BEA400B47F23 /* UserDefaults.swift in Sources */,
+				B3ACDFE52B95A26A007B2ED2 /* AllDetailsDescriptionTableViewCell.swift in Sources */,
+				4C56EB382B8C804C00941F5C /* MetalDetectorViewController.swift in Sources */,
+				B3F3ACA92B88B75900B47F23 /* Enumerations.swift in Sources */,
+				B33E72BE2BBEAD12002C1088 /* DrawingBoundingBoxView.swift in Sources */,
+				B36D58D92B8F703800F0A1A5 /* FontManager.swift in Sources */,
+				B36E2B112B8F69A0007FA3BD /* Info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3345F4D2B887B8100095AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3345F562B887B8100095AB9 /* Metal_DetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3345F572B887B8100095AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3345F622B887B8100095AB9 /* Metal_DetectorUITestsLaunchTests.swift in Sources */,
+				B3345F602B887B8100095AB9 /* Metal_DetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3345F532B887B8100095AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3345F3A2B887B8000095AB9 /* Metal Detector */;
+			targetProxy = B3345F522B887B8100095AB9 /* PBXContainerItemProxy */;
+		};
+		B3345F5D2B887B8100095AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3345F3A2B887B8000095AB9 /* Metal Detector */;
+			targetProxy = B3345F5C2B887B8100095AB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3345F442B887B8000095AB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3345F452B887B8000095AB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3345F492B887B8100095AB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3345F4A2B887B8100095AB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3345F632B887B8100095AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3345F642B887B8100095AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3345F662B887B8100095AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEDE2CA2F4A307DBCC30125 /* Pods-Metal Detector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Metal Detector/Metal Detector.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Y6PPC3HWR7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Metal Detector/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos for metal detection";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to record audio along with capturing photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = OnBoarding;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iTest.iTestiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "itestiapp pp";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B3345F672B887B8100095AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826195D6BE8DDEF7A6F328C8 /* Pods-Metal Detector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Metal Detector/Metal Detector.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Y6PPC3HWR7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Metal Detector/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos for metal detection";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to record audio along with capturing photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = OnBoarding;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iTest.iTestiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "itestiapp pp";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B3345F692B887B8100095AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E878C95879A5931CFA92B49 /* Pods-Metal DetectorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iapp.Metal-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metal Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metal Detector";
+			};
+			name = Debug;
+		};
+		B3345F6A2B887B8100095AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D628DF84349632AB36D767 /* Pods-Metal DetectorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iapp.Metal-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metal Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metal Detector";
+			};
+			name = Release;
+		};
+		B3345F6C2B887B8100095AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15DE43A95730A0F20FB47D9 /* Pods-Metal Detector-Metal DetectorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iapp.Metal-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Metal Detector";
+			};
+			name = Debug;
+		};
+		B3345F6D2B887B8100095AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56259A11407824A3848FE09 /* Pods-Metal Detector-Metal DetectorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iapp.Metal-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Metal Detector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3345F362B887B8000095AB9 /* Build configuration list for PBXProject "Metal Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3345F632B887B8100095AB9 /* Debug */,
+				B3345F642B887B8100095AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3345F652B887B8100095AB9 /* Build configuration list for PBXNativeTarget "Metal Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3345F662B887B8100095AB9 /* Debug */,
+				B3345F672B887B8100095AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3345F682B887B8100095AB9 /* Build configuration list for PBXNativeTarget "Metal DetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3345F692B887B8100095AB9 /* Debug */,
+				B3345F6A2B887B8100095AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3345F6B2B887B8100095AB9 /* Build configuration list for PBXNativeTarget "Metal DetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3345F6C2B887B8100095AB9 /* Debug */,
+				B3345F6D2B887B8100095AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3345F332B887B8000095AB9 /* Project object */;
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RedHatDisplay-SemiBold.ttf">
+            <string>RedHatDisplay-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="83" id="KGk-i7-Jjw" customClass="WifiListTableViewCell" customModule="Metal_Detector" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="83"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRR-i6-fGW">
+                        <rect key="frame" x="0.0" y="0.0" width="378" height="83"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WifiIcon" translatesAutoresizingMaskIntoConstraints="NO" id="6Mr-nW-TTQ">
+                                <rect key="frame" x="20" y="0.0" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="BO6-IH-aeE"/>
+                                    <constraint firstAttribute="width" secondItem="6Mr-nW-TTQ" secondAttribute="height" id="vPJ-qQ-5qt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Router" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9h-Cd-uHA">
+                                <rect key="frame" x="61" y="0.0" width="53.333333333333343" height="22.666666666666668"/>
+                                <fontDescription key="fontDescription" name="RedHatDisplay-SemiBold" family="Red Hat Display" pointSize="17"/>
+                                <color key="textColor" name="GrayTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="192.168.1.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DY5-Oz-Gh1">
+                                <rect key="frame" x="61" y="27.666666666666664" width="59" height="18.666666666666664"/>
+                                <fontDescription key="fontDescription" name="RedHatDisplay-SemiBold" family="Red Hat Display" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RoundCheck" translatesAutoresizingMaskIntoConstraints="NO" id="Ugg-67-u9W">
+                                <rect key="frame" x="334" y="0.66666666666666607" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="GUg-4s-pZf"/>
+                                    <constraint firstAttribute="width" secondItem="Ugg-67-u9W" secondAttribute="height" multiplier="1:1" id="YAj-gX-u2v"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDL-Xg-0iK">
+                                <rect key="frame" x="20" y="56.333333333333336" width="338" height="1"/>
+                                <color key="backgroundColor" name="GrayTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="XBY-dN-Bl0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="BottomSheetBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FDL-Xg-0iK" firstAttribute="trailing" secondItem="Ugg-67-u9W" secondAttribute="trailing" id="0l3-za-Mmd"/>
+                            <constraint firstItem="Ugg-67-u9W" firstAttribute="centerY" secondItem="6Mr-nW-TTQ" secondAttribute="centerY" id="331-Nd-8HK"/>
+                            <constraint firstAttribute="trailing" secondItem="Ugg-67-u9W" secondAttribute="trailing" constant="20" id="PNJ-0g-rtC"/>
+                            <constraint firstItem="FDL-Xg-0iK" firstAttribute="leading" secondItem="6Mr-nW-TTQ" secondAttribute="leading" id="Rk2-cw-AHt"/>
+                            <constraint firstItem="DY5-Oz-Gh1" firstAttribute="top" secondItem="n9h-Cd-uHA" secondAttribute="bottom" constant="5" id="ZUh-dR-VHO"/>
+                            <constraint firstItem="FDL-Xg-0iK" firstAttribute="top" secondItem="DY5-Oz-Gh1" secondAttribute="bottom" constant="10" id="a1J-No-3QZ"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="FDL-Xg-0iK" secondAttribute="bottom" constant="13" id="a9i-es-goH"/>
+                            <constraint firstItem="DY5-Oz-Gh1" firstAttribute="leading" secondItem="n9h-Cd-uHA" secondAttribute="leading" id="b4j-8k-efG"/>
+                            <constraint firstItem="6Mr-nW-TTQ" firstAttribute="top" secondItem="yRR-i6-fGW" secondAttribute="top" id="bGL-qP-Qra"/>
+                            <constraint firstItem="6Mr-nW-TTQ" firstAttribute="leading" secondItem="yRR-i6-fGW" secondAttribute="leading" constant="20" id="iMY-sF-Ebd"/>
+                            <constraint firstItem="n9h-Cd-uHA" firstAttribute="leading" secondItem="6Mr-nW-TTQ" secondAttribute="trailing" constant="16" id="nB4-oV-Jgw"/>
+                            <constraint firstItem="n9h-Cd-uHA" firstAttribute="top" secondItem="6Mr-nW-TTQ" secondAttribute="top" id="xNq-Pm-kYy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="yRR-i6-fGW" secondAttribute="bottom" id="4ce-WW-UKO"/>
+                    <constraint firstAttribute="trailing" secondItem="yRR-i6-fGW" secondAttribute="trailing" id="BJj-jK-OcL"/>
+                    <constraint firstItem="yRR-i6-fGW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Oi1-Hy-Gqz"/>
+                    <constraint firstItem="yRR-i6-fGW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ogF-Mh-X7C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="addressName" destination="DY5-Oz-Gh1" id="zqi-TK-abw"/>
+                <outlet property="addressTopConstraint" destination="ZUh-dR-VHO" id="vVM-Lb-uKO"/>
+                <outlet property="roundCheck" destination="Ugg-67-u9W" id="5RI-nh-X54"/>
+                <outlet property="routerName" destination="n9h-Cd-uHA" id="vLd-tu-1PY"/>
+            </connections>
+            <point key="canvasLocation" x="248.85496183206106" y="-10.91549295774648"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="RoundCheck" width="24" height="24"/>
+        <image name="WifiIcon" width="24" height="24.333333969116211"/>
+        <namedColor name="BottomSheetBackgroundColor">
+            <color red="0.12941176470588237" green="0.16470588235294117" blue="0.18823529411764706" alpha="0.80000001192092896" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GrayTextColor">
+            <color red="0.70196078431372544" green="0.71764705882352942" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

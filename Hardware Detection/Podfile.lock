@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.9.0)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - IQKeyboardManagerSwift (7.0.1)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - IQKeyboardManagerSwift
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - IQKeyboardManagerSwift
+    - SVProgressHUD
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Alamofire: 02b772c9910e8eba1a079227c32fbd9e46c90a24
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
+  IQKeyboardManagerSwift: 7f6b1b1d1497855d2beea7f2f10ffcc6978525b1
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: fb330a285aa3a73432114ada398c53db7dcf3336
+
+COCOAPODS: 1.14.3
